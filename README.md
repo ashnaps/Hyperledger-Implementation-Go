@@ -46,7 +46,8 @@ Output:
 ![image](https://github.com/ashnaps/Hyperledger-Implementation-Go/assets/77959009/ec8c5856-dbe0-4bb1-86c0-8cbb47e19af9)  
 
   1. Create wallet & Gateways:
-     ```markdown 
+     
+```markdown 
 curl -s http://console.127-0-0-1.nip.io:8080/ak/api/v1/components | weft microfab -w ./_wallets -p ./_gateways -m ./_msp -f
 ```
 ![image](https://github.com/ashnaps/Hyperledger-Implementation-Go/assets/77959009/78d39060-7e20-45ce-a9e2-6a14856ba5e4)
@@ -55,7 +56,8 @@ curl -s http://console.127-0-0-1.nip.io:8080/ak/api/v1/components | weft microfa
 ```markdown
 curl -sSL https://raw.githubusercontent.com/hyperledger/fabric/main/scripts/install-fabric.sh | bash -s -- binary
 ```
-Incase of errors:  
+Incase of errors like  
+![image](https://github.com/ashnaps/Hyperledger-Implementation-Go/assets/77959009/e30dc4c9-4195-4f70-aa03-bb8b386f69a2)  
  - 1.	Try a different ISP, if it is Jio India.
    2.	Use a different DNS:
    	 - 1.	Run: `sudo nano /etc/hosts`
