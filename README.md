@@ -36,9 +36,12 @@ export MICROFAB_CONFIG='{
 
 ```markdown
 docker run -e MICROFAB_CONFIG -p 8080:8080 ibmcom/ibp-microfab
-Or
+```
+Or  
+```markdown  
 sudo docker run --name microfab --rm -ti -p 8080:8080 -e MICROFAB_CONFIG="${MICROFAB_CONFIG}" ibmcom/ibp-microfab
 ```
+
 Output:  
 ![image](https://github.com/ashnaps/Hyperledger-Implementation-Go/assets/77959009/ec8c5856-dbe0-4bb1-86c0-8cbb47e19af9)  
 
@@ -46,7 +49,8 @@ Output:
      ```markdown 
 curl -s http://console.127-0-0-1.nip.io:8080/ak/api/v1/components | weft microfab -w ./_wallets -p ./_gateways -m ./_msp -f
 ```
-<img width="856" alt="image" src="https://github.com/ashnaps/Hyperledger-Implementation-Go/assets/77959009/78d39060-7e20-45ce-a9e2-6a14856ba5e4">
+![image](https://github.com/ashnaps/Hyperledger-Implementation-Go/assets/77959009/78d39060-7e20-45ce-a9e2-6a14856ba5e4)
+
  2. Installing Binaries:
 ```markdown
 curl -sSL https://raw.githubusercontent.com/hyperledger/fabric/main/scripts/install-fabric.sh | bash -s -- binary
