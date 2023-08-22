@@ -2,7 +2,7 @@
 - Prerequisites:
   1. Ubuntu OS/WSL
   2. Curl
-  3. docker >=23.0, check out for docker deamon error/Docker desktop prompt: https://twitter.com/ashnaa_02/status/1693759379051614712
+  3. docker >=23.0, check out for docker daemon error/Docker desktop prompt: https://twitter.com/ashnaa_02/status/1693759379051614712
   4. docker-compose
   5. build-essential
   6. nodejs
@@ -75,7 +75,7 @@ Incase of errors like:
    
    ![image](https://github.com/ashnaps/Hyperledger-Implementation-Go/assets/77959009/7d8db17b-e71a-4881-b4cc-25be6230d5f6)
 
-5. Ctrl+C - Network teaar down.
+5. Ctrl+C - Network tear down.
 
     
    	       
