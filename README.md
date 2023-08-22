@@ -56,7 +56,7 @@ curl -s http://console.127-0-0-1.nip.io:8080/ak/api/v1/components | weft microfa
 ```markdown
 curl -sSL https://raw.githubusercontent.com/hyperledger/fabric/main/scripts/install-fabric.sh | bash -s -- binary
 ```
-Incase of errors like  
+Incase of errors like:  
 ![image](https://github.com/ashnaps/Hyperledger-Implementation-Go/assets/77959009/e30dc4c9-4195-4f70-aa03-bb8b386f69a2)  
  - 1.	Try a different ISP, if it is Jio India.
    2.	Use a different DNS:
@@ -66,6 +66,15 @@ Incase of errors like
    	   4.	This tells your system that when it tries to access raw.githubusercontent.com, it should use the IP address 185.199.108.133.
    	   5.	After adding the line, save the changes by pressing Ctrl + O (to write out) and then press Enter. To exit the text editor, press Ctrl + X.
    	   6.	You've now added the entry to the /etc/hosts file. Try the installation again to see if it resolves the issue.
+   	      
+3. Output - CRUD Operations
+   ![image](https://github.com/ashnaps/Hyperledger-Implementation-Go/assets/77959009/2196da98-d669-4888-a95e-da1dcea054bd)
+   
+   ![image](https://github.com/ashnaps/Hyperledger-Implementation-Go/assets/77959009/7d8db17b-e71a-4881-b4cc-25be6230d5f6)
+
+5. Ctrl+C - Network teaar down.
+
+    
    	       
 
 
